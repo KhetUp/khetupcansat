@@ -324,6 +324,10 @@ section ul li {
         display: none;
     }
 
+    #cronogramaLink {
+        display: none;
+    }
+
     #imgTroca img {
         width: 45%;
         height: auto;
