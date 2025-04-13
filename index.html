@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipa Khet Up - CanSat Portugal</title>
+
+    <link rel="icon" type="image/png" href="Imagens/Logo.png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <!-- AOS Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Equipa Khet Up</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cansat">CanSat</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#missao-secundaria">Missão Secundária</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#cronograma">Cronograma</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#equipa">Equipa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+                    <!--li class="nav-item"><a class="nav-link" href="#noticias">Notícias</a></li-->
+                    <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <header id="inicio" class="bg-primary text-white text-center py-5 wave-container">
+        <div id="imgTroca">
+            <img src="Imagens/Design_sem_nome__3_-removebg-preview.png" alt="Equipa Khet Up" title="Equipa Khet Up"
+                height="170">
+            <img src="Imagens/Design_sem_nome__4_-removebg-preview.png" alt="Escola Secundária de Camões"
+                title="Escola Secundária de Camões" height="170" id="imgResponsive">
+        </div>
+        <div>
+            <h1>Bem-vindo à Equipa Khet Up</h1>
+            <p>Preparados para o CanSat 2025?</p>
+            <a href="#sobre" class="btn btn-danger">Saiba mais</a>
+        </div>
+        <img src="Imagens/Design_sem_nome__4_-removebg-preview.png" alt="Escola Secundária de Camões"
+            title="Escola Secundária de Camões" height="170" id="imgTemporaria">
+    </header>
+
+    <!-- Sobre -->
+    <section id="sobre" class="container py-5">
+        <div class="row">
+            <div class="col-md-6" data-aos="fade-right">
+                <h2>Sobre a Equipa</h2>
+                <p>A Equipa Khet Up é composta por alunos do Liceu Camões e tem como objetivo desenvolver um CanSat
+                    inovador
+                    e funcional. O projeto visa o desenvolvimento de sistemas eletrônicos, mecânicos e de comunicação
+                    para
+                    enviar dados úteis durante o voo.</p>
+                <p>O nosso desafio é competir na 12ª edição do CanSat Portugal, um concurso de design e construção de
+                    satélites
+                    em miniatura.</p>
+            </div>
+            <div class="col-md-6 zoom-container" data-aos="fade-left">
+                <img src="Imagens/Equipa _new.jpg" class="img-fluid rounded shadow-lg" id="imgEquipa"
+                    alt="Equipe Khet Up">
+            </div>
+        </div>
+    </section>
+
+    <!-- CanSat -->
+    <section id="cansat" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center">O que é o CanSat?</h2>
+            <p>O CanSat é uma competição onde estudantes constroem um satélite do tamanho de uma lata de refrigerante. O
+                objetivo
+                é incluir todos os componentes essenciais de um satélite em miniatura: antena, sensores, bateria, e a
+                unidade de
+                comunicação, tudo compactado em um pequeno espaço.</p>
+            <p>Durante o voo, o CanSat coleta e transmite dados para a estação terrestre. Os desafios envolvem a
+                precisão da medição,
+                a comunicação sem falhas, e a capacidade do satélite de operar de maneira eficiente durante o voo e após
+                o impacto.</p>
+            <div id="divSiteOficial">
+                <a href="https://www.esero.pt/projetos-escolares/2024-2025/cansatpt" target="_blank"
+                    class="btn btn-danger">Site
+                    Oficial</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Missão Secundária -->
+    <section id="missao-secundaria" class="container py-5">
+        <h2 class="text-center">Missão Secundária</h2>
+        <p>Além do principal objetivo de realizar a medição de parâmetros ambientais, nossa missão secundária consiste
+            em verificar se é possível transportar medicamentos ricos em proteínas através de aeronaves de pequeno porte
+            não pilotadas. Para simularmos estas condições vamos colocar gelatinas em cápsulas de amido dentro do nosso
+            Cansat, e submetê-las a um voo. Posteriormente iremos realizar testes simples a estas amostras e comparar
+            com um grupo de controlo.</p>
+        <p>Se os nossos testes forem bem sucedidos, no futuro, em caso de catástrofe, o transporte de medicamentos para
+            zonas isoladas poderá ser assegurado por este tipo de dispositivo sem o risco de danificar os medicamentos
+            ou alterar a sua composição.</p>
+    </section>
+
+    <!-- Cronograma -->
+    <section id="cronograma" class="bg-light py-5">
+        <h2 class="text-center" id="hCronograma">Cronograma</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Atividade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>17 de janeiro 2025</td>
+                    <td>Data limite para submissão de projetos</td>
+                </tr>
+                <tr>
+                    <td>27 de janeiro 2025</td>
+                    <td>Anúncio dos finalistas</td>
+                </tr>
+                <tr>
+                    <td>21 de abril 2025</td>
+                    <td>Data limite para submissão do relatório e póster</td>
+                </tr>
+                <tr>
+                    <td>1 a 4 de maio</td>
+                    <td>Evento final</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Equipa -->
+    <section id="equipa" class="container py-5">
+        <h2 class="text-center">Conheça a Equipa</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="Imagens/Ana.jpg" class="img-fluid" alt="Ana Abreu">
+                <h4>Ana Abreu</h4>
+                <p>Capitã de Equipa; Electrónica; Modelagem 3D; Sistema de Recuperação</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="Imagens/Maria.jpg" class="img-fluid" alt="Maria Tost">
+                <h4>Maria Tost</h4>
+                <p>Missão Secundária; Análise de Dados</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="Imagens/Sofia.jpg" class="img-fluid" alt="Sofia Sousa">
+                <h4>Sofia Sousa</h4>
+                <p>Missão Secundária; Análise de Dados</p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="Imagens/Lucca.jpg" class="img-fluid" alt="Lucca Martins">
+                <h4>Lucca Martins</h4>
+                <p>Código; Telemetria</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="Imagens/Leonardo.jpg" class="img-fluid" alt="Leonardo Tanchão">
+                <h4>Leonardo Tanchão</h4>
+                <p>Código; Telemetria</p>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <img src="Imagens/prof_img.jpeg" class="img-fluid" alt="Professor">
+                <h4>Pedro Custódio</h4>
+                <p>Professor</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parceiros -->
+    <section id="parceiros" class="bg-light py-5">
+        <h2 class="text-center">Nossos Parceiros</h2>
+        <div class="row">
+            <div class="col-md-3" data-aos="fade-up">
+                <h4>Tenente Coronel Santos<br></h4>
+            </div>
+            <div class="col-md-3" data-aos="fade-up">
+                <h4><br>José Martins Lavado<br></h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3" data-aos="fade-up">
+                <h4><br>Sofia Branco<br></h4>
+            </div>
+            <div class="col-md-3" data-aos="fade-up">
+                <h4><br>ShirtUp Barreiro</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notícias -->
+    <!--section id="noticias" class="container py-5">
+        <h2 class="text-center">Últimas Notícias</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow-lg border-0">
+                    <img src="news1.jpg" class="card-img-top" alt="Notícia 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Teste bem-sucedido!</h5>
+                        <p class="card-text">Realizamos o primeiro teste de voo e os resultados foram incríveis!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card shadow-lg border-0">
+                    <img src="news2.jpg" class="card-img-top" alt="Notícia 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Novos patrocinadores</h5>
+                        <p class="card-text">Estamos felizes em anunciar novos parceiros para o nosso projeto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section-->
+
+    <!-- Galeria -->
+    <section id="galeria" class="container py-5">
+        <h2 class="text-center">Galeria</h2>
+        <div class="row">
+            <div class="col-md-4" data-aos="flip-left">
+                <img src="Imagens/gal2.jpeg" class="img-fluid rounded mb-3 shadow-lg" alt="Imagem 1">
+            </div>
+            <div class="col-md-4" data-aos="flip-left">
+                <img src="Imagens/gal3.jpeg" class="img-fluid rounded mb-3 shadow-lg" alt="Imagem 2">
+            </div>
+            <div class="col-md-4" data-aos="flip-left">
+                <img src="Imagens/gal6.jpeg" class="img-fluid rounded mb-3 shadow-lg" alt="Imagem 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" data-aos="flip-left">
+                <img src="Imagens/gal1.JPG" class="img-fluid rounded mb-3 shadow-lg" alt="Imagem 4">
+            </div>
+            <div class="col-md-4" data-aos="flip-left">
+                <img src="Imagens/gal4.jpeg" class="img-fluid rounded mb-3 shadow-lg" alt="Imagem 5">
+            </div>
+            <div class="col-md-4" data-aos="flip-left">
+                <img src="Imagens/gal5.jpeg" class="img-fluid rounded mb-3 shadow-lg" alt="Imagem 6">
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="bg-dark text-white py-5">
+        <div class="container text-center">
+            <h2>Contacto</h2>
+            <p>Entre em contacto conosco para saber mais sobre o projeto.</p>
+            <p>khetupcansat.camoes@gmail.com</p>
+            <!-- Ícone do Instagram -->
+            <p>
+                <a href="https://www.instagram.com/khetupcansat" target="_blank" class="text-white">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </p>
+            <!--form>
+                <div class="mb-3">
+                    <input type="email" class="form-control" placeholder="Seu email">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" rows="4" placeholder="Sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="btn btn-danger">Enviar</button>
+            </form-->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!--
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Equipa Khet Up - CanSat Portugal 2025</p>
+        <p>+351 123456789 | khetupcansat.camoes@gmail.com</p>
+    </footer>
+    -->
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Equipa Khet Up - CanSat Portugal - 12ª Edição - 2024/2025</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Bootstrap JavaScript e jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
